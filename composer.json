@@ -1,0 +1,25 @@
+{
+    "name": "cloverphp/promises",
+    "description": "Promises",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Clover\\Promises\\": "src/promises/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sushil Kumar",
+            "email": "sushilkumbhar77@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
